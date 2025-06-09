@@ -21,7 +21,7 @@ iframe {
 }
 
 body {
-    background: linear-gradient(rgba(13, 11, 33, 0.75), rgba(13, 11, 33, 0.75)), url(../imagenes/fondo.jpg) no-repeat center fixed;
+    background: linear-gradient(rgba(13, 11, 33, 0.75), rgba(13, 11, 33, 1)), url(../imagenes/fondo.jpg) no-repeat center fixed;
     background-size: cover;
     color: white;
     font-family: "Lato", sans-serif;
@@ -51,16 +51,7 @@ footer {
     flex-direction: column;
     align-items: center;
 }
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
+        
 
 h1,
 h2,
@@ -189,12 +180,9 @@ cite {
 }
 
 #premio {
-    
     display: grid;
-    text-align: center;
+    justify-content: center;
 }
-
-
 
 #premio p {
     font-weight: 600;
